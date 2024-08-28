@@ -1,9 +1,11 @@
 # Front_Chatbox
 This project is an interactive and elegant chatbox focused on the frontend, designed to provide a smooth and attractive user experience. The main features include:
 
-# Elegant User Interface: 
+Elegant User Interface: 
 A modern and minimalist design that ensures a visually pleasing experience.
-# Smooth Animations: 
+Smooth Animations: 
 Transitions and animated effects that enhance interaction and make the chat more dynamic.
-# Open Source: 
+Open Source: 
 Anyone can use and modify this project to fit their needs.
+
+Check the result here --> https://aperezvigoa.github.io/Front_Chatbox/
