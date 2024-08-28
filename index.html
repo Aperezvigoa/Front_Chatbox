@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="chat">
+        <div class="chat__user">
+            <img src="./Files/profile.jpg">
+            <span>Dwight Schrute</span>
+        </div>
+        <div class="chat__content">
+            <!--MSG 1-->
+            <div class="msg">
+                <p class="msg__content">
+                    Jim is my enemy. But it turns out that Jim is also his own worst enemy. And the enemy of my enemy is my friend. So Jim is actually my friend. But, because he is his own worst enemy, the enemy of my friend is my enemy, so actually, Jim is my enemy.
+                </p>
+            </div>
+
+            <!--MSG 2-->
+            <div class="msg self">
+                <p class="msg__content">
+                    My roommate wants to meet everybody. Because I’m pretty sure he thinks I’m making Dwight up. He is very real.
+                </p>
+            </div>
+
+            <!--MSG 3-->
+            <div class="msg">
+                <p class="msg__content">
+                    It’s better to be hurt by someone you know accidentally, than by a stranger on purpose.”
+                </p>
+            </div>
+
+            <!--MSG 4-->
+            <div class="msg self">
+                <p class="msg__content">
+                    So this is my life. Until I win the lottery. Or Pam finally writes that series of young adult books.
+                </p>
+            </div>
+
+            <!--MSG 5-->
+            <div class="msg self">
+                <p class="msg__content">
+                    Stanley just drank OJ out of my mug and didn’t seem to realize that it wasn’t his hot coffee. So the question has to be asked, is there no limit to what he won’t notice?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        for (let i = 0; i < 100; i++) {
+        let star = document.createElement('div');
+        star.className = 'star';
+        star.style.top = `${Math.random() * 100}vh`;
+        star.style.left = `${Math.random() * 100}vw`;
+        document.querySelector('.stars').appendChild(star);
+        }
+    </script>
+</body>
+</html>
